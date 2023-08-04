@@ -21,6 +21,7 @@ export const Heros = () => {
                     size="default"
                     text="PAPER"
                     type="primary"
+                    onClick={() => window.open('http://yourlink.com')}
                   />
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
@@ -30,6 +31,7 @@ export const Heros = () => {
                     size="default"
                     text="CODE"
                     type="primary"
+                    onClick={() => window.open('https://github.com/fisherOu/llm_scene')}
                   />
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
@@ -39,6 +41,7 @@ export const Heros = () => {
                     size="default"
                     text="DEMO VIDEO"
                     type="primary"
+                    onClick={() => window.open('http://yourlink.com')}
                   />
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
@@ -48,6 +51,7 @@ export const Heros = () => {
                     size="default"
                     text="LIVE DEMO"
                     type="primary"
+                    onClick={() => window.open('http://yourlink.com')}
                   />
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
@@ -57,6 +61,7 @@ export const Heros = () => {
                     size="default"
                     text="DOCS"
                     type="primary"
+                    onClick={() => window.open('http://yourlink.com')}
                   />
                 </div>
               </div>
