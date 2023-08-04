@@ -1,0 +1,165 @@
+.heros {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.heros .heros-v {
+  background-color: var(--neutral-colorswhite);
+  border: 1px none;
+  height: 1720px;
+  width: 1440px;
+}
+
+.heros .overlap-group {
+  height: 1437px;
+  left: 80px;
+  position: relative;
+  top: 120px;
+  width: 1280px;
+}
+
+.heros .wrapper {
+  height: 1437px;
+  left: 65px;
+  position: absolute;
+  top: 0;
+  width: 1149px;
+}
+
+.heros .frame {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 80px;
+  position: relative;
+}
+
+.heros .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.heros .heading {
+  color: #2a2d3d;
+  font-family: var(--headings-h1-font-family);
+  font-size: var(--headings-h1-font-size);
+  font-style: var(--headings-h1-font-style);
+  font-weight: var(--headings-h1-font-weight);
+  letter-spacing: var(--headings-h1-letter-spacing);
+  line-height: var(--headings-h1-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 1115px;
+}
+
+.heros .button-set {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.heros .master-primary-button {
+  align-items: center !important;
+  background-color: #2a2d3d !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 184px !important;
+}
+
+.heros .master-primary-instance {
+  color: #ffffff !important;
+}
+
+.heros .master-secondary-button {
+  align-items: center !important;
+  background-color: #2a2d3d0d !important;
+  border-color: #2a2d3d33 !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 184px !important;
+}
+
+.heros .master-secondary-instance {
+  color: #2a2d3d !important;
+}
+
+.heros .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 64px;
+  position: relative;
+}
+
+.heros .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.heros .paragraph {
+  color: #2a2d3db2;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  font-style: var(--body-large-font-style);
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  line-height: var(--body-large-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 991px;
+}
+
+.heros .p {
+  color: #2a2d3db2;
+  font-family: var(--headings-h4-font-family);
+  font-size: var(--headings-h4-font-size);
+  font-style: var(--headings-h4-font-style);
+  font-weight: var(--headings-h4-font-weight);
+  letter-spacing: var(--headings-h4-letter-spacing);
+  line-height: var(--headings-h4-line-height);
+  position: relative;
+  width: 991px;
+}
+
+.heros .paragraph-2 {
+  color: #2a2d3db2;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  font-style: var(--body-large-font-style);
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  line-height: var(--body-large-line-height);
+  position: relative;
+  width: 991px;
+}
+
+.heros .image {
+  height: 647px;
+  object-fit: cover;
+  position: relative;
+  width: 1149px;
+}
+
+.heros .line {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1436px;
+  width: 1280px;
+}

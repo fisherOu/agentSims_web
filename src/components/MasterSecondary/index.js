@@ -1,0 +1,1 @@
+export { MasterSecondary } from "./MasterSecondary";

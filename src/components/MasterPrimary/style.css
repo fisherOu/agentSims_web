@@ -1,0 +1,180 @@
+.master-primary {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.master-primary .class {
+  height: 14px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 13px !important;
+}
+
+.master-primary .class-2 {
+  height: 20px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 20px !important;
+}
+
+.master-primary .class-3 {
+  height: 18px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.master-primary .button-text {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.master-primary .class-4 {
+  height: 15px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 15px !important;
+}
+
+.master-primary.large {
+  border-radius: 47.27px;
+  padding: 28px 56px;
+}
+
+.master-primary.small {
+  border-radius: 30px;
+  padding: 18px 24px;
+}
+
+.master-primary.secondary {
+  background-color: var(--neutral-colorswhite);
+  border-color: var(--neutral-colorsheadings-black);
+}
+
+.master-primary.default {
+  border-radius: 40px;
+  padding: 24px 36px;
+}
+
+.master-primary.smaller {
+  border-radius: 30px;
+  padding: 14px 18px;
+}
+
+.master-primary.primary {
+  background-color: var(--neutral-colorsheadings-black);
+}
+
+.master-primary.smaller.secondary {
+  border: 1px solid;
+}
+
+.master-primary.default.secondary {
+  border: 1.33px solid;
+}
+
+.master-primary.small.secondary {
+  border: 1px solid;
+}
+
+.master-primary.large.secondary {
+  border: 1.58px solid;
+}
+
+.master-primary.large .button-text {
+  margin-top: -1.58px;
+}
+
+.master-primary.small .button-text {
+  margin-top: -1px;
+}
+
+.master-primary.secondary .button-text {
+  color: var(--neutral-colorsheadings-black);
+}
+
+.master-primary.default .button-text {
+  margin-top: -1.33px;
+}
+
+.master-primary.smaller .button-text {
+  font-family: "DM Sans", Helvetica;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-top: -1px;
+}
+
+.master-primary.primary .button-text {
+  color: var(--neutral-colorswhite);
+}
+
+.master-primary.smaller.secondary .button-text {
+  font-weight: 400;
+}
+
+.master-primary.small.primary .button-text {
+  font-family: var(--text-single-100-bold-font-family);
+  font-size: var(--text-single-100-bold-font-size);
+  font-style: var(--text-single-100-bold-font-style);
+  font-weight: var(--text-single-100-bold-font-weight);
+  letter-spacing: var(--text-single-100-bold-letter-spacing);
+  line-height: var(--text-single-100-bold-line-height);
+}
+
+.master-primary.default.secondary .button-text {
+  font-family: var(--text-single-200-regular-font-family);
+  font-size: var(--text-single-200-regular-font-size);
+  font-style: var(--text-single-200-regular-font-style);
+  font-weight: var(--text-single-200-regular-font-weight);
+  letter-spacing: var(--text-single-200-regular-letter-spacing);
+  line-height: var(--text-single-200-regular-line-height);
+}
+
+.master-primary.small.secondary .button-text {
+  font-family: var(--text-single-100-regular-font-family);
+  font-size: var(--text-single-100-regular-font-size);
+  font-style: var(--text-single-100-regular-font-style);
+  font-weight: var(--text-single-100-regular-font-weight);
+  letter-spacing: var(--text-single-100-regular-letter-spacing);
+  line-height: var(--text-single-100-regular-line-height);
+}
+
+.master-primary.large.secondary .button-text {
+  font-family: var(--text-single-300-regular-font-family);
+  font-size: var(--text-single-300-regular-font-size);
+  font-style: var(--text-single-300-regular-font-style);
+  font-weight: var(--text-single-300-regular-font-weight);
+  letter-spacing: var(--text-single-300-regular-letter-spacing);
+  line-height: var(--text-single-300-regular-line-height);
+}
+
+.master-primary.default.primary .button-text {
+  font-family: var(--text-single-200-bold-font-family);
+  font-size: var(--text-single-200-bold-font-size);
+  font-style: var(--text-single-200-bold-font-style);
+  font-weight: var(--text-single-200-bold-font-weight);
+  letter-spacing: var(--text-single-200-bold-letter-spacing);
+  line-height: var(--text-single-200-bold-line-height);
+}
+
+.master-primary.smaller.primary .button-text {
+  font-weight: 700;
+}
+
+.master-primary.large.primary .button-text {
+  font-family: var(--text-single-300-bold-font-family);
+  font-size: var(--text-single-300-bold-font-size);
+  font-style: var(--text-single-300-bold-font-style);
+  font-weight: var(--text-single-300-bold-font-weight);
+  letter-spacing: var(--text-single-300-bold-letter-spacing);
+  line-height: var(--text-single-300-bold-line-height);
+}
