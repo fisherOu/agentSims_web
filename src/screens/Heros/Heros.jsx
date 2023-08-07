@@ -23,6 +23,7 @@ export const Heros = () => {
                     type="primary"
                     onClick={() => window.open('http://yourlink.com')}
                   />
+                  <a href="https://github.com/py499372727/AgentSims/">
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
                     className="master-secondary-button"
@@ -33,6 +34,8 @@ export const Heros = () => {
                     type="primary"
                     onClick={() => window.open('https://github.com/fisherOu/llm_scene')}
                   />
+                  </a>
+                  <a href="https://youtu.be/buZX6XJiZtE">
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
                     className="master-secondary-button"
@@ -43,6 +46,7 @@ export const Heros = () => {
                     type="primary"
                     onClick={() => window.open('http://yourlink.com')}
                   />
+                  </a>
                   <MasterSecondary
                     buttonTextClassName="master-secondary-instance"
                     className="master-secondary-button"
