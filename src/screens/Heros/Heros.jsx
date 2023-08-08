@@ -72,24 +72,48 @@ export const Heros = () => {
               <div className="frame-2">
                 <div className="frame-3">
                   <p className="paragraph">
-                    How to evaluate the ability of large language models (LLM) is an open question after ChatGPT-like
-                    LLMs prevailing the community. Existing evaluation methods suffer from following shortcomings:
+                  How to evaluate the ability of large language models (LLM) is an open question after ChatGPT-like LLMs prevailing the community. Existing evaluation methods suffer from following shortcomings:
                   </p>
                   <p className="p">
-                    limited evaluated abilities;
+                    (1) constrained evaluation abilities,
                     <br />
-                    hackable benchmarks;
+                    (2) vulnerable benchmarks,
                     <br />
-                    unobjective metrics.
+                    (3) unobjective metrics.
                   </p>
                   <p className="paragraph-2">
-                    We suggest that task-based evaluation, where LLM agents complete tasks in a simulated environment,
-                    is a one-for-all solution to solve above problems.
+                    We suggest that task-based evaluation, where LLM agents complete tasks in a simulated environment, is a one-for-all solution to solve above problems.
                   </p>
                   <p className="paragraph-2">
-                    Researchers can build their evaluation tasks by adding agents and buildings on an interactive GUI or
-                    deploy and test new support mechanisms, i.e. memory system and planning system,&nbsp;&nbsp;by a few
-                    lines of codes.
+                    We present AgentSims, an easy-to-use infrastructure for researchers from all disciplines to test the specific capacities they are interested in.
+                  </p>
+                  <p className="paragraph-2">
+                    Researchers can build their evaluation tasks by adding agents and buildings on an interactive GUI or deploy and test new support mechanisms, i.e. memory system and planning system,&nbsp;&nbsp;by a few lines of codes.  
+                  </p>
+                </div>
+                <div className="frame-3">
+                  <p className="paragraph">
+                  We present a demonstration of our system on this website.
+                  </p>
+                  <p className="p">
+                  PAPER contains our arXiv paper publication.
+                    <br />
+                    CODE links to our GitHub code repository.
+                    <br />
+                    DEMO VIDEO showcases demonstration videos.
+                    <br />
+                    LIVE DEMO is our online web client.
+                    <br />
+                    DOCS provides detailed documentation of our system. 
+                  </p>
+                  <p className="paragraph-2">
+                  You can use our LIVE DEMO to experience a simple trial of our system. The usage flow is: create AGENTS and BUILDINGS after entering the website, then use the tick button to activate the no-mayor mode, and the mayor button to activate the mayor mode. We provide access to the GPT-3.5 API in the live demo for testing. 
+                  </p>
+                  <p className="paragraph-2">
+                  Due to billing limits, we have set connection limits per user, which will automatically end the session when reached. We will keep the LIVE DEMO server open, but due to capacity, it currently only supports one active web client at a time and we regularly clear server cache.
+                  </p>
+                  <p className="paragraph-2">
+                  For the best experience, we strongly recommend local deployment following the instructions in CODE and further development based on PAPER and DOCS.
                   </p>
                 </div>
                 <img
