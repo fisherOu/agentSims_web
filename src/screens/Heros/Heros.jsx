@@ -124,11 +124,6 @@ export const Heros = () => {
               </div>
             </div>
           </div>
-          <img
-            className="line"
-            alt="Line"
-            src="https://generation-sessions.s3.amazonaws.com/7fffe1e230aaf47ad7397c3a59f1a690/img/line-86.svg"
-          />
         </div>
       </div>
     </div>
