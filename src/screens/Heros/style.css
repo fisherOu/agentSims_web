@@ -60,6 +60,34 @@
   width: 1115px;
 }
 
+.heros .sub-title {
+  color: #2a2d3d;
+  font-family: var(--headings-h3-font-family);
+  font-size: var(--headings-h3-font-size);
+  font-style: var(--headings-h3-font-style);
+  font-weight: var(--headings-h3-font-weight);
+  letter-spacing: var(--headings-h3-letter-spacing);
+  line-height: var(--headings-h3-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 1115px;
+}
+
+.heros .sub-title-info {
+  color: #2a2d3d;
+  font-family: var(--headings-p-font-family);
+  font-size: var(--headings-p-font-size);
+  font-style: var(--headings-p-font-style);
+  font-weight: var(--headings-p-font-weight);
+  letter-spacing: var(--headings-p-letter-spacing);
+  line-height: var(--headings-p-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 1115px;
+}
+
 .heros .button-set {
   align-items: center;
   display: inline-flex;
