@@ -19,60 +19,66 @@ export const Heros = () => {
                 <p className="sub-title-info"><sup className="sup">*</sup>corresponding author: zhaohaoran@buaa.edu.cn</p>
                 <p className="sub-title-info"><sup className="sup">2</sup>jjlin.unfake@gmail.com and <sup className="sup">6</sup>qchen@cs.ecnu.edu.cn</p>
                 <div className="button-set">
-                  <MasterPrimary
-                    buttonTextClassName="master-primary-instance"
-                    className="master-primary-button"
-                    iconLeft={false}
-                    iconRight={false}
-                    size="default"
-                    text="PAPER"
-                    type="primary"
-                    onClick={() => window.open('http://yourlink.com')}
-                  />
+                  <a href="https://arxiv.org/pdf/2308.04026.pdf">
+                    <MasterPrimary
+                      buttonTextClassName="master-primary-instance"
+                      className="master-primary-button"
+                      iconLeft={false}
+                      iconRight={false}
+                      size="default"
+                      text="PAPER"
+                      type="primary"
+                      onClick={() => window.open('http://yourlink.com')}
+                    />
+                  </a>
                   <a href="https://github.com/py499372727/AgentSims/">
-                  <MasterSecondary
-                    buttonTextClassName="master-secondary-instance"
-                    className="master-secondary-button"
-                    iconLeft={false}
-                    iconRight={false}
-                    size="default"
-                    text="CODE"
-                    type="primary"
-                    onClick={() => window.open('https://github.com/fisherOu/llm_scene')}
-                  />
+                    <MasterSecondary
+                      buttonTextClassName="master-secondary-instance"
+                      className="master-secondary-button"
+                      iconLeft={false}
+                      iconRight={false}
+                      size="default"
+                      text="CODE"
+                      type="primary"
+                      onClick={() => window.open('https://github.com/fisherOu/llm_scene')}
+                    />
                   </a>
                   <a href="https://youtu.be/buZX6XJiZtE">
-                  <MasterSecondary
-                    buttonTextClassName="master-secondary-instance"
-                    className="master-secondary-button"
-                    iconLeft={false}
-                    iconRight={false}
-                    size="default"
-                    text="DEMO VIDEO"
-                    type="primary"
-                    onClick={() => window.open('http://yourlink.com')}
-                  />
+                    <MasterSecondary
+                      buttonTextClassName="master-secondary-instance"
+                      className="master-secondary-button"
+                      iconLeft={false}
+                      iconRight={false}
+                      size="default"
+                      text="DEMO VIDEO"
+                      type="primary"
+                      onClick={() => window.open('http://yourlink.com')}
+                    />
                   </a>
-                  <MasterSecondary
-                    buttonTextClassName="master-secondary-instance"
-                    className="master-secondary-button"
-                    iconLeft={false}
-                    iconRight={false}
-                    size="default"
-                    text="LIVE DEMO"
-                    type="primary"
-                    onClick={() => window.open('http://yourlink.com')}
-                  />
-                  <MasterSecondary
-                    buttonTextClassName="master-secondary-instance"
-                    className="master-secondary-button"
-                    iconLeft={false}
-                    iconRight={false}
-                    size="default"
-                    text="DOCS"
-                    type="primary"
-                    onClick={() => window.open('http://yourlink.com')}
-                  />
+                  <a href="/demo">
+                    <MasterSecondary
+                      buttonTextClassName="master-secondary-instance"
+                      className="master-secondary-button"
+                      iconLeft={false}
+                      iconRight={false}
+                      size="default"
+                      text="LIVE DEMO"
+                      type="primary"
+                      onClick={() => window.open('http://yourlink.com')}
+                    />
+                  </a>
+                  <a href="https://github.com/py499372727/AgentSims/wiki">
+                    <MasterSecondary
+                      buttonTextClassName="master-secondary-instance"
+                      className="master-secondary-button"
+                      iconLeft={false}
+                      iconRight={false}
+                      size="default"
+                      text="DOCS"
+                      type="primary"
+                      onClick={() => window.open('http://yourlink.com')}
+                    />
+                  </a>
                 </div>
               </div>
               <div className="frame-2">
