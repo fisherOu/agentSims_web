@@ -92,7 +92,7 @@
   font-weight: var(--headings-p-font-weight);
   letter-spacing: var(--headings-p-letter-spacing);
   line-height: var(--headings-p-line-height);
-  margin-top: -1px;
+  margin-top: -30px;
   position: relative;
   text-align: center;
   width: 1115px;
