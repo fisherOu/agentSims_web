@@ -16,7 +16,7 @@ export const Heros = () => {
                 <p className="sub-title-info"><sup className="sup">1</sup>PTA studio</p>
                 <p className="sub-title-info"><sup className="sup">2</sup>Pennsylvania State University,<sup className="sup">3</sup>Beihang University,<sup className="sup">4</sup>Zhejiang University</p>
                 <p className="sub-title-info"><sup className="sup">2</sup>jjlin.unfake@gmail.com</p>
-                <p className="sub-title-info"><sup className="sup">3</sup>zhaohaoran@buaa.edu.cn</p>
+                <p className="sub-title-info"><sup className="sup">*</sup>corresponding author: zhaohaoran@buaa.edu.cn</p>
                 <div className="button-set">
                   <MasterPrimary
                     buttonTextClassName="master-primary-instance"
