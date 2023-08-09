@@ -81,6 +81,7 @@
   font-weight: var(--headings-sup-font-weight);
   letter-spacing: var(--headings-sup-letter-spacing);
   line-height: var(--headings-sup-line-height);
+  vertical-align: super;
 }
 
 .heros .sub-title-info {
