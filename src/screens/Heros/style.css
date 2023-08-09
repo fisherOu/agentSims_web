@@ -74,6 +74,15 @@
   width: 1115px;
 }
 
+.heros .sup {
+  font-family: var(--headings-sup-font-family);
+  font-size: var(--headings-sup-font-size);
+  font-style: var(--headings-sup-font-style);
+  font-weight: var(--headings-sup-font-weight);
+  letter-spacing: var(--headings-sup-letter-spacing);
+  line-height: var(--headings-sup-line-height);
+}
+
 .heros .sub-title-info {
   color: #2a2d3d;
   font-family: var(--headings-p-font-family);

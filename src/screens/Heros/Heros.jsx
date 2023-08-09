@@ -12,11 +12,11 @@ export const Heros = () => {
             <div className="frame">
               <div className="div">
                 <h1 className="heading">AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</h1>
-                <h3 className="sub-title">Jiaju Lin<sup>1,2</sup>,Haoran Zhao<sup>1,3 *</sup>,Aochi Zhang<sup>1</sup>,Yiting Wu<sup>1</sup>, and Huqiuyue Ping<sup>4</sup></h3>
-                <p className="sub-title-info"><sup>1</sup>PTA studio</p>
-                <p className="sub-title-info"><sup>2</sup>Pennsylvania State University,<sup>3</sup>Beihang University,<sup>4</sup>Zhejiang University</p>
-                <p className="sub-title-info"><sup>2</sup>jjlin.unfake@gmail.com</p>
-                <p className="sub-title-info"><sup>3</sup>zhaohaoran@buaa.edu.cn</p>
+                <h3 className="sub-title">Jiaju Lin<sup className="sup">1,2</sup>,Haoran Zhao<sup className="sup">1,3 *</sup>,Aochi Zhang<sup className="sup">1</sup>,Yiting Wu<sup className="sup">1</sup>, and Huqiuyue Ping<sup className="sup">4</sup></h3>
+                <p className="sub-title-info"><sup className="sup">1</sup>PTA studio</p>
+                <p className="sub-title-info"><sup className="sup">2</sup>Pennsylvania State University,<sup className="sup">3</sup>Beihang University,<sup className="sup">4</sup>Zhejiang University</p>
+                <p className="sub-title-info"><sup className="sup">2</sup>jjlin.unfake@gmail.com</p>
+                <p className="sub-title-info"><sup className="sup">3</sup>zhaohaoran@buaa.edu.cn</p>
                 <div className="button-set">
                   <MasterPrimary
                     buttonTextClassName="master-primary-instance"
