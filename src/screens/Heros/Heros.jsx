@@ -55,7 +55,7 @@ export const Heros = () => {
                       onClick={() => window.open('http://yourlink.com')}
                     />
                   </a>
-                  <a href="https://demo.agentsims.com">
+                  <a href="http://demo.agentsims.com">
                     <MasterSecondary
                       buttonTextClassName="master-secondary-instance"
                       className="master-secondary-button"
