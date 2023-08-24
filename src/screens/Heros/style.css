@@ -162,6 +162,19 @@
   width: 991px;
 }
 
+.heros .alert {
+  color: red;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  font-style: italic;
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  line-height: var(--body-large-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 991px;
+}
+
 .heros .p {
   color: #2a2d3db2;
   font-family: var(--headings-h4-font-family);

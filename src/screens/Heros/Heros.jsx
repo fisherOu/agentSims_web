@@ -83,6 +83,9 @@ export const Heros = () => {
               </div>
               <div className="frame-2">
                 <div className="frame-3">
+                  <p className="alert">
+                  *Due to our unexpected increase in traffic, the GPT-3.5-turbo API in our Live demo for everyone to experience has exceeded the billing limit for this month. We deeply apologize for this. For researchers who want to try our system demonstration, please go to CODE to access our github code and install and deploy our project. If you encounter any problems, please feel relaxed and contact us from zhaohaoran@buaa.edu.cn.
+                  </p>
                   <p className="paragraph">
                   How to evaluate the ability of large language models (LLM) is an open question after ChatGPT-like LLMs prevailing the community. Existing evaluation methods suffer from following shortcomings:
                   </p>
