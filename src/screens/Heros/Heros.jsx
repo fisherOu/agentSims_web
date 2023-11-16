@@ -79,6 +79,18 @@ export const Heros = () => {
                       onClick={() => window.open('http://yourlink.com')}
                     />
                   </a>
+                  <a href="/aeroagent">
+                    <MasterSecondary
+                      buttonTextClassName="master-secondary-instance"
+                      className="master-secondary-button"
+                      iconLeft={false}
+                      iconRight={false}
+                      size="default"
+                      text="VIDEO TEST"
+                      type="primary"
+                      onClick={() => window.open('http://yourlink.com')}
+                    />
+                  </a>
                 </div>
               </div>
               <div className="frame-2">
