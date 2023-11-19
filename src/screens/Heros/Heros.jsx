@@ -11,143 +11,60 @@ export const Heros = () => {
           <div className="wrapper">
             <div className="frame">
               <div className="div">
-                <h1 className="heading">AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</h1>
+                <h1 className="heading">Agent as Cerebrum, Controller as Cerebellum: Implementing an Embodied LMM-based Agent on Drones</h1>
                 <h3 className="sub-title">Jiaju Lin<sup className="sup">1,2</sup>,Haoran Zhao<sup className="sup">1,3 *</sup>,Aochi Zhang<sup className="sup">1</sup>,Yiting Wu<sup className="sup">1,4</sup>,Huqiuyue Ping<sup className="sup">1,5</sup>,Qin Chen<sup className="sup">6</sup></h3>
-                <p className="sub-title-info"><sup className="sup">1</sup>PTA studio</p>
+                {/* <p className="sub-title-info"><sup className="sup">1</sup>PTA studio</p>
                 <p className="sub-title-info"><sup className="sup">2</sup>Pennsylvania State University,<sup className="sup">3</sup>Beihang University,</p>
                 <p className="sub-title-info"><sup className="sup">4</sup>Sun Yat-sen University<sup className="sup">5</sup>Zhejiang University<sup className="sup">6</sup>East China Normal University</p>
                 <p className="sub-title-info"><sup className="sup">*</sup>corresponding author: zhaohaoran@buaa.edu.cn</p>
-                <p className="sub-title-info"><sup className="sup">2</sup>jjlin.unfake@gmail.com and <sup className="sup">6</sup>qchen@cs.ecnu.edu.cn</p>
+                <p className="sub-title-info"><sup className="sup">2</sup>jjlin.unfake@gmail.com and <sup className="sup">6</sup>qchen@cs.ecnu.edu.cn</p> */}
                 <div className="button-set">
-                  <a href="https://arxiv.org/pdf/2308.04026.pdf">
+                  {/*  href="https://arxiv.org/pdf/2308.04026.pdf" */}
+                  <a>
                     <MasterPrimary
                       buttonTextClassName="master-primary-instance"
                       className="master-primary-button"
                       iconLeft={false}
                       iconRight={false}
                       size="default"
-                      text="PAPER"
+                      text="Arxiv Paper"
                       type="primary"
-                      onClick={() => window.open('http://yourlink.com')}
                     />
                   </a>
-                  <a href="https://github.com/py499372727/AgentSims/">
+                  {/*  href="https://youtu.be/buZX6XJiZtE" */}
+                  <a>
                     <MasterSecondary
                       buttonTextClassName="master-secondary-instance"
                       className="master-secondary-button"
                       iconLeft={false}
                       iconRight={false}
                       size="default"
-                      text="CODE"
+                      text="VIDEO"
                       type="primary"
-                      onClick={() => window.open('https://github.com/fisherOu/llm_scene')}
-                    />
-                  </a>
-                  <a href="https://youtu.be/buZX6XJiZtE">
-                    <MasterSecondary
-                      buttonTextClassName="master-secondary-instance"
-                      className="master-secondary-button"
-                      iconLeft={false}
-                      iconRight={false}
-                      size="default"
-                      text="DEMO VIDEO"
-                      type="primary"
-                      onClick={() => window.open('http://yourlink.com')}
-                    />
-                  </a>
-                  <a href="http://demo.agentsims.com">
-                    <MasterSecondary
-                      buttonTextClassName="master-secondary-instance"
-                      className="master-secondary-button"
-                      iconLeft={false}
-                      iconRight={false}
-                      size="default"
-                      text="LIVE DEMO"
-                      type="primary"
-                      onClick={() => window.open('http://yourlink.com')}
-                    />
-                  </a>
-                  <a href="https://github.com/py499372727/AgentSims/wiki">
-                    <MasterSecondary
-                      buttonTextClassName="master-secondary-instance"
-                      className="master-secondary-button"
-                      iconLeft={false}
-                      iconRight={false}
-                      size="default"
-                      text="DOCS"
-                      type="primary"
-                      onClick={() => window.open('http://yourlink.com')}
-                    />
-                  </a>
-                  <a href="/aeroagent">
-                    <MasterSecondary
-                      buttonTextClassName="master-secondary-instance"
-                      className="master-secondary-button"
-                      iconLeft={false}
-                      iconRight={false}
-                      size="default"
-                      text="VIDEO TEST"
-                      type="primary"
-                      onClick={() => window.open('http://yourlink.com')}
                     />
                   </a>
                 </div>
               </div>
               <div className="frame-2">
                 <div className="frame-3">
-                  <p className="alert">
-                  *Due to our unexpected increase in traffic, the GPT-3.5-turbo API in our Live demo for everyone to experience has exceeded the billing limit for this month. We deeply apologize for this. For researchers who want to try our system demonstration, please go to CODE to access our github code and install and deploy our project. If you encounter any problems, please feel relaxed and contact us from zhaohaoran@buaa.edu.cn.
-                  </p>
                   <p className="paragraph">
-                  How to evaluate the ability of large language models (LLM) is an open question after ChatGPT-like LLMs prevailing the community. Existing evaluation methods suffer from following shortcomings:
-                  </p>
-                  <p className="p">
-                    (1) constrained evaluation abilities,
-                    <br />
-                    (2) vulnerable benchmarks,
-                    <br />
-                    (3) unobjective metrics.
-                  </p>
-                  <p className="paragraph-2">
-                    We suggest that task-based evaluation, where LLM agents complete tasks in a simulated environment, is a one-for-all solution to solve above problems.
-                  </p>
-                  <p className="paragraph-2">
-                    We present AgentSims, an easy-to-use infrastructure for researchers from all disciplines to test the specific capacities they are interested in.
-                  </p>
-                  <p className="paragraph-2">
-                    Researchers can build their evaluation tasks by adding agents and buildings on an interactive GUI or deploy and test new support mechanisms, i.e. memory system and planning system,&nbsp;&nbsp;by a few lines of codes.  
+                  blablablabla
                   </p>
                 </div>
+                <video controls autoplay muted style={height='200px'}>
+                    <source src="/static/videoTest.mp4" type="video/mp4"/>
+                    您的浏览器不支持 video 标签。
+                </video>
                 <div className="frame-3">
                   <p className="paragraph">
-                  We present a demonstration of our system on this website.
-                  </p>
-                  <p className="p">
-                  PAPER contains our arXiv paper publication.
-                    <br />
-                    CODE links to our GitHub code repository.
-                    <br />
-                    DEMO VIDEO showcases demonstration videos.
-                    <br />
-                    LIVE DEMO is our online web client.
-                    <br />
-                    DOCS provides detailed documentation of our system. 
-                  </p>
-                  <p className="paragraph-2">
-                  You can use our LIVE DEMO to experience a simple trial of our system. The usage flow is: create AGENTS and BUILDINGS after entering the website, then use the tick button to activate the no-mayor mode, and the mayor button to activate the mayor mode. We provide access to the GPT-3.5 API in the live demo for testing. 
-                  </p>
-                  <p className="paragraph-2">
-                  Due to billing limits, we have set connection limits per user, which will automatically end the session when reached. We will keep the LIVE DEMO server open, but due to capacity, it currently only supports one active web client at a time and we regularly clear server cache.
-                  </p>
-                  <p className="paragraph-2">
-                  For the best experience, we strongly recommend local deployment following the instructions in CODE and further development based on PAPER and DOCS.
+                  blablablabla
                   </p>
                 </div>
-                <img
+                {/* <img
                   className="image"
                   alt="Image"
                   src="https://generation-sessions.s3.amazonaws.com/7fffe1e230aaf47ad7397c3a59f1a690/img/image-1.png"
-                />
+                /> */}
               </div>
             </div>
           </div>
