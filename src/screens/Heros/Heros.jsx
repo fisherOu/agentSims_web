@@ -12,12 +12,9 @@ export const Heros = () => {
             <div className="frame">
               <div className="div">
                 <h1 className="heading">Agent as Cerebrum, Controller as Cerebellum: Implementing an Embodied LMM-based Agent on Drones</h1>
-                <h3 className="sub-title">Jiaju Lin<sup className="sup">1,2</sup>,Haoran Zhao<sup className="sup">1,3 *</sup>,Aochi Zhang<sup className="sup">1</sup>,Yiting Wu<sup className="sup">1,4</sup>,Huqiuyue Ping<sup className="sup">1,5</sup>,Qin Chen<sup className="sup">6</sup></h3>
-                {/* <p className="sub-title-info"><sup className="sup">1</sup>PTA studio</p>
-                <p className="sub-title-info"><sup className="sup">2</sup>Pennsylvania State University,<sup className="sup">3</sup>Beihang University,</p>
-                <p className="sub-title-info"><sup className="sup">4</sup>Sun Yat-sen University<sup className="sup">5</sup>Zhejiang University<sup className="sup">6</sup>East China Normal University</p>
-                <p className="sub-title-info"><sup className="sup">*</sup>corresponding author: zhaohaoran@buaa.edu.cn</p>
-                <p className="sub-title-info"><sup className="sup">2</sup>jjlin.unfake@gmail.com and <sup className="sup">6</sup>qchen@cs.ecnu.edu.cn</p> */}
+                <h3 className="sub-title">Haoran Zhao<sup className="sup">1,3*</sup>, Fengxing Pan<sup className="sup">1,3</sup>, Huqiuyue Ping<sup className="sup">2,3</sup>, Yaoming Zhou<sup className="sup">1*</sup></h3>
+                <p className="sub-title-info"><sup className="sup">1</sup>Beihang University, <sup className="sup">2</sup>Zhejiang University, <sup className="sup">3</sup>qingniaoAI</p>
+                <p className="sub-title-info"><sup className="sup">1</sup>{"{"}<span style={{fontStyle:"italic"}}>zhaohaoran,panfengxing,zhouyaoming</span>{"}"}@buaa.edu.cn<sup className="sup">2</sup><span style={{fontStyle:"italic"}}>pinghqy</span>@126.com</p>
                 <div className="button-set">
                   {/*  href="https://arxiv.org/pdf/2308.04026.pdf" */}
                   <a>
@@ -46,18 +43,18 @@ export const Heros = () => {
                 </div>
               </div>
               <div className="frame-2">
-                <div className="frame-3">
+                {/* <div className="frame-3">
                   <p className="paragraph">
                   blablablabla
                   </p>
-                </div>
+                </div> */}
                 <video controls autoplay muted height={'200px'}>
                     <source src="/static/videoTest.mp4" type="video/mp4"/>
-                    您的浏览器不支持 video 标签。
+                    video not supported
                 </video>
                 <div className="frame-3">
                   <p className="paragraph">
-                  blablablabla
+                  Videos of other experiments are coming soon.
                   </p>
                 </div>
                 {/* <img
