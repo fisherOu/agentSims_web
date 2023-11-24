@@ -48,7 +48,7 @@ export const Heros = () => {
                   blablablabla
                   </p>
                 </div> */}
-                <video controls autoplay muted height={'200px'}>
+                <video controls autoplay muted width={'800px'}>
                     <source src="/static/videoTest.mp4" type="video/mp4"/>
                     video not supported
                 </video>
