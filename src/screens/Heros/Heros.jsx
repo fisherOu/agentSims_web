@@ -17,7 +17,7 @@ export const Heros = () => {
                 <p className="sub-title-info"><sup className="sup">1</sup>{"{"}<span style={{fontStyle:"italic"}}>zhaohaoran,panfengxing,zhouyaoming</span>{"}"}@buaa.edu.cn<sup className="sup">2</sup><span style={{fontStyle:"italic"}}>pinghqy</span>@126.com</p>
                 <div className="button-set">
                   {/*  href="https://arxiv.org/pdf/2308.04026.pdf" */}
-                  <a href="/static/aeroagent.pdf">
+                  <a href="https://arxiv.org/abs/2311.15033">
                     <MasterPrimary
                       buttonTextClassName="master-primary-instance"
                       className="master-primary-button"
